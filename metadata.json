@@ -1,0 +1,8 @@
+{
+  "name": "The T-Shirt Guide",
+  "description": "Guides, comparisons, fit advice, and product recommendations to help you choose your next T-shirt.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

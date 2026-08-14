@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", sans-serif;
+  --font-serif: "Lora", serif;
+}
+
+body {
+  @apply bg-[#FAFAF9] text-stone-900 antialiased;
+}
