@@ -12,6 +12,7 @@ import { GuidesList } from './pages/GuidesList';
 import { ComparisonsList } from './pages/ComparisonsList';
 import { ArticleDetail } from './pages/ArticleDetail';
 import { Quiz } from './pages/Quiz';
+import { Search } from './pages/Search';
 
 // Info Pages
 import { About } from './pages/info/About';
@@ -74,6 +75,7 @@ export default function App() {
             <Route path="best-:slug" element={<CommercialGuide />} />
             
             <Route path="find-your-tshirt" element={<Quiz />} />
+            <Route path="search" element={<Search />} />
             <Route path="diagnostics" element={<Diagnostics />} />
             
             {/* Info Pages */}
